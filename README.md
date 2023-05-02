@@ -1,32 +1,21 @@
 # django_project
 
-# Storefront Backend
+# Artist API
 
 ## Required Technologies
-- Postgres for the database
-- Node/Express for the application logic
-- dotenv from npm for managing environment variables
-- db-migrate from npm for migrations
-- jsonwebtoken from npm for working with JWTs
-- jasmine from npm for testing
+- Python
+- django
 
-## Getting Started
+## Getting Startd
 
 ### 1. Package installation
-- Express -> ``` npm i express ```
-- dotenv -> ``` npm install dontenv```
-- db-migrate ->  ```npm install -g db-migrate```  and  ```npm add db-migrate db-migrate-pg```
-- jsonwebtoken -> ``` npm add jsonwebtoken```
+- django -> ``` pip install django ```
 
-### 2. Database Setup and Connection.
-- By default postgresql will be running in port 5432 or 5433
-
-    #### 2.3 Migration.
-    - Run ```db-migrate up``` to check if the database has connected successfully.
+### 2. Setting up the enviroment.
 
 ### 3. Starting the app
 - The app will use port 8000 so stop if there is any program using this port.
-- $``` npm run watch```
+- $``` python manage.py runserver```
 
 ### 4. Endpoints
 - Product routes

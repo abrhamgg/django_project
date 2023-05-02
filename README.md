@@ -7,24 +7,20 @@
 - django
 
 ## Getting Startd
-
+- Make sure you have python installed.
 ### 1. Package installation
 - django -> ``` pip install django ```
 
-### 2. Setting up the enviroment.
-
-### 3. Starting the app
+### 2 Starting the app
 - The app will use port 8000 so stop if there is any program using this port.
-- $``` python manage.py runserver```
+- $``` python manage.py runserver ```
+- $``` python manage.py runserver <port_mum> ```
 
-### 4. Endpoints
+### 3 Endpoints
 - Product routes
-    - GET ```/products``` -> returns all products.
-    - GET ``` /products/:id``` -> returns a product by id.
-    - GET ``` /products/category/:category``` -> returns products with specific category.
-    - POST ``` /products``` -> creates a new product. Token is required
-    - GET ``` /popular_products``` -> returns 5 products with maximum number of orders.
+    - GET ```http://127.0.0.1:8000/api/works``` -> returns all works.
+    - GET ``` http://127.0.0.1:8000/api/works?artist=[Artist Name]``` -> Integrate Search with Artist name.
+    - GET ``` http://127.0.0.1:8000/api/works?work_type=Youtube``` -> Integrate Filtering with Work Type.
+    - POST ``` http://127.0.0.1:8000/api/register``` -> creates a new user.
 
-### 5. Running Tests.
-- $ ``` npm test or npm run test```
 

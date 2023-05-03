@@ -17,7 +17,8 @@
 - $``` python manage.py runserver <port_mum> ```
 
 ### 3 Endpoints
-- Product routes
+- admin route - ```http://127.0.0.1:8000/admin``` use admin- admin as credentials or you can create your own superuser.
+
     - GET ```http://127.0.0.1:8000/api/works``` -> returns all works.
     - GET ``` http://127.0.0.1:8000/api/works?artist=[Artist Name]``` -> Integrate Search with Artist name.
     - GET ``` http://127.0.0.1:8000/api/works?work_type=Youtube``` -> Integrate Filtering with Work Type.
